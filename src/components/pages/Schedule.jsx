@@ -20,9 +20,9 @@ function Schedule() {
     setLoading(true);
     setError(null);
     
-    try {
+try {
       const result = await shiftService.getAll();
-      setShifts(result);
+      setShifts(result || []);
     } catch (err) {
       setError(err.message || 'Failed to load schedule data');
       toast.error('Failed to load schedule data');

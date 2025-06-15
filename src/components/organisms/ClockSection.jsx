@@ -73,9 +73,9 @@ function ClockSection() {
         setCurrentEntry(null);
         toast.success(`Clocked out successfully! Total hours: ${updated.totalHours}h`);
       } else {
-        // Clock in
+// Clock in
         const newEntry = await timeEntryService.create({
-          employeeId: 'emp1',
+          employeeId: 1,
           clockIn: new Date().toISOString(),
           breaks: []
         });

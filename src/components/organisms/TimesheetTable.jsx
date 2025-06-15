@@ -11,9 +11,9 @@ function TimesheetTable({ entries, onExport }) {
 
   const getFilteredEntries = () => {
     if (viewMode === 'day') {
-      const today = new Date().toISOString().split('T')[0];
+const today = new Date().toISOString().split('T')[0];
       return entries.filter(entry => 
-        entry.clockIn.split('T')[0] === today
+        entry.clockIn && entry.clockIn.split('T')[0] === today
       );
     }
     
@@ -22,7 +22,8 @@ function TimesheetTable({ entries, onExport }) {
     const startOfWeek = new Date(now.setDate(now.getDate() - now.getDay()));
     const endOfWeek = new Date(now.setDate(now.getDate() - now.getDay() + 6));
     
-    return entries.filter(entry => {
+return entries.filter(entry => {
+      if (!entry.clockIn) return false;
       const entryDate = new Date(entry.clockIn);
       return entryDate >= startOfWeek && entryDate <= endOfWeek;
     });

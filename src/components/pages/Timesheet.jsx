@@ -22,9 +22,9 @@ function Timesheet() {
     setLoading(true);
     setError(null);
     
-    try {
+try {
       const result = await timeEntryService.getAll();
-      setEntries(result);
+      setEntries(result || []);
     } catch (err) {
       setError(err.message || 'Failed to load timesheet data');
       toast.error('Failed to load timesheet data');
