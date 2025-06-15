@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "date": "2024-01-22",
+    "startTime": "09:00",
+    "endTime": "17:30",
+    "department": "Customer Service",
+    "status": "scheduled"
+  },
+  {
+    "id": "2",
+    "date": "2024-01-23",
+    "startTime": "08:30",
+    "endTime": "17:00",
+    "department": "Customer Service",
+    "status": "scheduled"
+  },
+  {
+    "id": "3",
+    "date": "2024-01-24",
+    "startTime": "09:15",
+    "endTime": "18:00",
+    "department": "Customer Service",
+    "status": "scheduled"
+  },
+  {
+    "id": "4",
+    "date": "2024-01-25",
+    "startTime": "08:45",
+    "endTime": "17:15",
+    "department": "Customer Service",
+    "status": "scheduled"
+  },
+  {
+    "id": "5",
+    "date": "2024-01-26",
+    "startTime": "09:00",
+    "endTime": "17:30",
+    "department": "Customer Service",
+    "status": "scheduled"
+  }
+]

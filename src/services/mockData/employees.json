@@ -1,0 +1,23 @@
+[
+  {
+    "id": "emp1",
+    "name": "Sarah Johnson",
+    "department": "Customer Service",
+    "hourlyRate": 18.50,
+    "overtimeThreshold": 40
+  },
+  {
+    "id": "emp2",
+    "name": "Michael Chen",
+    "department": "Operations",
+    "hourlyRate": 22.00,
+    "overtimeThreshold": 40
+  },
+  {
+    "id": "emp3",
+    "name": "Emily Rodriguez",
+    "department": "Sales",
+    "hourlyRate": 20.75,
+    "overtimeThreshold": 40
+  }
+]

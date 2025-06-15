@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+    "employeeId": "emp1",
+    "clockIn": "2024-01-15T09:00:00.000Z",
+    "clockOut": "2024-01-15T17:30:00.000Z",
+    "breaks": [
+      {
+        "startTime": "2024-01-15T12:00:00.000Z",
+        "endTime": "2024-01-15T12:30:00.000Z",
+        "type": "unpaid",
+        "duration": 0.5
+      },
+      {
+        "startTime": "2024-01-15T15:00:00.000Z",
+        "endTime": "2024-01-15T15:15:00.000Z",
+        "type": "paid",
+        "duration": 0.25
+      }
+    ],
+    "totalHours": 8.0,
+    "status": "completed"
+  },
+  {
+    "id": "2",
+    "employeeId": "emp1",
+    "clockIn": "2024-01-16T08:30:00.000Z",
+    "clockOut": "2024-01-16T17:00:00.000Z",
+    "breaks": [
+      {
+        "startTime": "2024-01-16T12:15:00.000Z",
+        "endTime": "1/16/2024 1:00:00 PM.000Z",
+        "type": "unpaid",
+        "duration": 0.75
+      }
+    ],
+    "totalHours": 7.75,
+    "status": "completed"
+  },
+  {
+    "id": "3",
+    "employeeId": "emp1",
+    "clockIn": "1/17/2024 9:15:00 AM",
+    "clockOut": "2024-01-17T18:00:00.000Z",
+    "breaks": [
+      {
+        "startTime": "2024-01-17T12:30:00.000Z",
+        "endTime": "2024-01-17T13:15:00.000Z",
+        "type": "unpaid",
+        "duration": 0.75
+      },
+      {
+        "startTime": "2024-01-17T15:30:00.000Z",
+        "endTime": "2024-01-17T15:45:00.000Z",
+        "type": "paid",
+        "duration": 0.25
+      }
+    ],
+    "totalHours": 8.0,
+    "status": "completed"
+  },
+  {
+    "id": "4",
+    "employeeId": "emp1",
+    "clockIn": "1/18/2024 8:45:00 AMZ",
+    "clockOut": "2024-01-18T17:15:00.000Z",
+    "breaks": [
+      {
+        "startTime": "2024-01-18T12:00:00.000Z",
+        "endTime": "2024-01-18T12:30:00.000Z",
+        "type": "unpaid",
+        "duration": 0.5
+      }
+    ],
+    "totalHours": 8.0,
+    "status": "completed"
+  },
+  {
+    "id": "5",
+    "employeeId": "emp1",
+    "clockIn": "2024-01-19T09:00:00.000Z",
+    "clockOut": null,
+    "breaks": [],
+    "totalHours": 0,
+    "status": "active"
+  }
+]
